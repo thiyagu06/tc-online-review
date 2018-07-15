@@ -88,6 +88,7 @@
             <fileset dir="${ext_libdir}/joda-time" includes="*.jar" />
             <fileset dir="${ext_libdir}/commons" includes="*.jar"/>
             <fileset dir="${ext_libdir}/jackson" includes="*.jar"/>
+		    <fileset dir="${tcs_libdir}/auto_pilot_libs" includes="*.jar"/>
 
             <!--components-->
             <fileset file="${authentication_factory.jar}"/>
